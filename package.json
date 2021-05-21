@@ -1,7 +1,7 @@
 {
   "name": "torch",
   "version": "1.0.0",
-  "description": "find workers",
+  "description": "This is a website to find workers near you.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/alexmuniznina/torch.git"
   },
-  "author": "Alex-Nina",
+  "author": "Alex Nina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexmuniznina/torch/issues"
@@ -20,5 +20,11 @@
   "homepage": "https://github.com/alexmuniznina/torch#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
