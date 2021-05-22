@@ -49,13 +49,25 @@
       git reset HEAD <filename>
       git checkout -- <filename>
       ```
-   5. Additional resources:
+   5. Setup Github repository.
+      1. Create a project on Github and run commands specified there to the local repository to link the remote repository.
+         ```
+         git remote add origin <replace this with your remote repository URL>
+         git push -u origin master
+         ```
+
+   6. Additional resources:
       - [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
       - [Git Simple Guide](http://rogerdudler.github.io/git-guide/)
       - [Git Cheatsheet](https://gist.github.com/hofmannsven/6814451)
       - [Git & VS Code Integration](https://www.digitalocean.com/community/tutorials/how-to-use-git-integration-in-visual-studio-code)
       - [Git Concepts & Workflow](https://livecodestream.dev/post/git-concepts-and-workflow-for-beginners/)
       - [Understanding Git](https://livecodestream.dev/post/git-concepts-and-workflow-for-beginners/)
+      - [About remote repositories](https://help.github.com/en/articles/about-remote-repositories)
+      - [Working with remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+      - [Git remote command](https://git-scm.com/docs/git-remote)
+      - [Git push command](https://git-scm.com/docs/git-push)
+      - [Git clone command](https://git-scm.com/docs/git-clone)
 
 3. Install Node & NPM
    1. Prerequisite: Make sure you have installed Git on your machine before you install Node.js.
