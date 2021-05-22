@@ -71,4 +71,48 @@
 
 3. Install Node & NPM
    1. Prerequisite: Make sure you have installed Git on your machine before you install Node.js.
-   2. 
+   2. MacOS installation.
+      - Run the following commands:
+      ```
+      touch ~/.bash_profile
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+      nvm install 14.9.0
+      nvm use 14.9.0
+      ```
+   3. Verify your installation running the commands:
+      ```
+      node -v
+      npm -v
+      ```
+   4. Using NPM.
+      Run the command inside the project (git) folder: `npm init`
+   5. Install lite-server.
+      Run the command: `npm install lite-server --save-dev`
+      Modify the **package.json** file:
+      ```
+      {
+        "name": "project-name",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.html",
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1",
+            "start": "npm run lite",
+            "lite": "lite-server"
+        },
+        "repository": {
+            "type": "git"
+        },
+        "author": "your-name",
+        "license": "ISC",
+        "devDependencies": {
+            "lite-server": "^2.5.4"
+        }
+      }
+      ```
+      When open VS Code, run the following command to start lite-server: `npm start`
+   6. Additional resources:
+      - [Node.js site](https://nodejs.org/)
+      - [NPM site](https://www.npmjs.com/)
+      - [NPM Doc](https://docs.npmjs.com/)
+      - [NVM manag utility MacOS](https://github.com/nvm-sh/nvm)
