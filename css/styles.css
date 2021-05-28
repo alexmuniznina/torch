@@ -1,0 +1,32 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h1 {
+    color:#003F63;
+}
+
+h2 {
+    color:#d4a54e;
+}
+
+.site-footer {
+    background-image: linear-gradient(#bababa, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #D9D9D9, #353D40, #003F63);
+    color: #000000;
+}
+
+.navbar {
+    background-color: #d1982e;
+}
+
